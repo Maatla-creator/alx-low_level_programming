@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * printing all possible combinations of numbers.
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
