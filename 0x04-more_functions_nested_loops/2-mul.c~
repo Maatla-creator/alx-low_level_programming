@@ -1,0 +1,16 @@
+#include "holberton.h"
+/**
+ * mul - multiplies two integers
+ *
+ * @res: parameter used in the _isdigit function
+ *
+ * Return: res
+ */
+int mul(int a, int b)
+{
+  int res;
+  res = a * b;
+
+  return (res);
+
+}
