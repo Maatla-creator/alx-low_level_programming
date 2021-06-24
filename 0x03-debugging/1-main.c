@@ -20,6 +20,5 @@ i = 0;
 /*}*/
 /*\o/ - used as parameter in printf function*/
 printf("Infinite loop avoided! \\o/\n");
-
 return (0);
 }
