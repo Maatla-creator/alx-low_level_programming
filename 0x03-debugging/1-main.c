@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop
-* @\\o/\n": parameters used in the printf function
+* main - causes an infinite loop(commented out)
 * Return: 0
 */
 
