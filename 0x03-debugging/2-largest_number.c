@@ -24,6 +24,6 @@ else
 {
 largest = c;
 }
-
-return (largest);
+printf("%d\n", largest);
+return (0);
 }
