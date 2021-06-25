@@ -5,10 +5,9 @@
  *5(Buzz) and multiples of both as FizzBuzz.
  * Return: 0
  */
-int fizz_buzz(void)
+void  fizz_buzz(void)
 {
 int i;
-
 for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0)
@@ -27,6 +26,5 @@ else
 {
 printf("%d ", i);
 }
-}
-return (0);  
+}  
 }
