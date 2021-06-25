@@ -1,30 +1,32 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * fizz_buzz - prints numbers 1 to 10 with mutiples of 3(Fizz),
+ * main - prints numbers 1 to 10 with mutiples of 3(Fizz),
  *5(Buzz) and multiples of both as FizzBuzz.
  * Return: 0
  */
-void  fizz_buzz(void)
+int  main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0)
 {
-printf("Fizz ");
+printf(" Fizz");
 }
 if (i % 5 == 0)
 {
-printf("Buzz ");
+printf(" Buzz");
 }
 else if ((i % 3 == 0) && (i % 5 == 0))
 {
-printf("FizzBuzz ");
+printf(" FizzBuzz");
 }
 else
 {
 printf("%d ", i);
 }
-}  
+}
+printf("\n");
+return (0); 
 }
