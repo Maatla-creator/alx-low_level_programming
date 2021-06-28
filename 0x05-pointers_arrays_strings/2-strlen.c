@@ -4,14 +4,17 @@
 /**
  * _strlen - returns the length of a string.
  * @s: parameter in strlen function.
- * Return: void.
+ * Return: length of string.
  */
 int _strlen(char *s)
 {
-char s[] = *s;
-int i;
+	int i;
 
-for (i = 0; s[i] != '\0'; i++);
-printf("%d", i);
-return (0);
+	i = 0;
+	while (*(s + i) != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
