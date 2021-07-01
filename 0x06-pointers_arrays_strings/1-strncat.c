@@ -10,22 +10,23 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int m, j;
 
-	i = 0;
+	m = 0;
 	j = 0;
 
-	while (*(dest + i) != '\0')
+	while (*(dest + m) != '\0')
 	{
-		i++;
+		m++;
 	}
 
 	while (j < n)
 	{
-		*(dest + i) == *(src + j);
+		*(dest + m) == *(src + j);
 
 		if (*(src + j) == '\0')
 			break;
-		i++;
+		m++;
 		j++;
-	
+	}
+}
