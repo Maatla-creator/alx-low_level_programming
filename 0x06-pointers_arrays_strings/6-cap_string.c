@@ -7,7 +7,6 @@
  * Return: pointer to the modifed string str
  *
  */
-
 char *cap_string(char *str)
 {
 	int i = 0;
@@ -19,7 +18,12 @@ char *cap_string(char *str)
 			*(str + i) = 65 + (*(str + i) - 97);
 
 		if ((*(str + i) >= 97 && *(str + i) <= 122
-		    && i == 0) || (*(str + (i - 1)) == 10))
+		     && i == 0) || (*(str + (i - 1)) == 10))
+			*(str + i) = 65 + (*(str + i) - 97);
+
+		if ((*(str + i) >= 97 && *(str + i) <= 122
+		     && i != 0) && (*(str + (i - 1)) == 9
+				    || *(str + (i - 1)) == 46))
 			*(str + i) = 65 + (*(str + i) - 97);
 
 		i++;
