@@ -13,7 +13,7 @@
 
 char *_strchr(char *s, char c)
 {
-	unsigned int m;
+int m;
 
 	m = 0;
 	while (*(s + m) != '\0')
@@ -25,6 +25,7 @@ char *_strchr(char *s, char c)
 
 		m++;
 	}
-
+	if (*(s + m) == c)
+		return (s + m);
 	return ('\0');
 }
