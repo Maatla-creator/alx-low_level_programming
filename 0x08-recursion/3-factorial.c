@@ -1,6 +1,6 @@
-#include "holberton."
+#include "holberton.h"
 /**
- * factorial - returns the factorial of the given value
+ * factorial - returns the factorial of a given value
  *
  * @n: int parameter in factorial function
  *
