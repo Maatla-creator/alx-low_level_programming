@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 	(void) argc;
-	if (argv[1]  == '\0' || argv[2] == '\0')
+	if (argv[1]  == NULL || argv[2] == NULL)
 	{
 		printf("Error\n");
 		return (1);
