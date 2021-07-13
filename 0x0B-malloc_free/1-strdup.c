@@ -22,6 +22,8 @@ char *_strdup(char *str)
 	}
 
 	ar = (char *)malloc(sizeof(char) * (i + 1));
+	if (ar == NULL)
+		return (NULL);
 
 	for (n = 0; n < i; n++)
 		ar[n] = str[n];
