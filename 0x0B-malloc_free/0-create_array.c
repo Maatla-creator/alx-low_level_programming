@@ -14,11 +14,12 @@ n = size;
 char *arr;
 
 arr = malloc(n * sizeof(char));
-*arr = c;
+*arr = 'c';
 
 
-if (n == 0);
+if (n == 0)
 {
 return (NULL);
 }
+return (arr);
 }
