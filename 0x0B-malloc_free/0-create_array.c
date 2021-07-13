@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  *create_array - creates an array of chars
  *@size: parameter in create_array
