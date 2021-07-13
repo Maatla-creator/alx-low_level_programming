@@ -13,7 +13,7 @@ n = size;
 char *arr;
 
 arr = malloc(n * sizeof(char));
-*arr = 'H';
+*arr = c;
 
 
 if (n == 0);
