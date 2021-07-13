@@ -21,10 +21,10 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	ar = (char *)malloc(sizeof(char) * (i));
+	ar = (char *)malloc(sizeof(char) * (i + 1));
 
 	for (n = 0; n < i; n++)
 		ar[n] = str[n];
-
+	ar[n] = '\0';
 	return (ar);
 }
