@@ -1,1 +1,1 @@
-Repository for 0x00.C-Hello, World Project(ALX-SE)
+Repository - ALX LOW LEVEL PROGRAMMING(ALX-SE)
